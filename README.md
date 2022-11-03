@@ -1,4 +1,4 @@
-# # :pencil2: Eat_Quick
+# :hamburger: :fries: Eat_Quick
 
 
 ## Authors
