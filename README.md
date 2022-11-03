@@ -1,10 +1,10 @@
-# # :pencil2: Eat_Quick
+# :hamburger: :fries: Eat_Quick
 
 
 ## Authors
 
-* Andrés Felipe Botache - [mail](andresfboco@gmail.com) (https://github.com/Anfelroth)
-* Rafael Ojito - [mail](ojitorafael@gmail.com)(https://github.com/rojitop81)
+* Andrés Felipe Botache - [mail](andresfboco@gmail.com)
+* Rafael Ojito - [mail](ojitorafael@gmail.com)
 * Paola Garcia - [mail](paga0209@gmail.com)
 
 ## License
