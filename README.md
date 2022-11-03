@@ -3,9 +3,9 @@
 
 ## Authors
 
-* Andrés Felipe Botache - (andresfboco@gmail.com) - (https://github.com/Anfelroth)
-* Rafael Ojito -  (ojitorafael@gmail.com) - (https://github.com/rojitop81)
-* Paola Garcia -  (paga0209@gmail.com) - (https://github.com/PaolaAndreaGA)
+* Andrés Felipe Botache - [E-mail](andresfboco@gmail.com) - [Github](https://github.com/Anfelroth)
+* Rafael Ojito -  [E-mail](ojitorafael@gmail.com) - [Github](https://github.com/rojitop81)
+* Paola Garcia -  [E-mail](paga0209@gmail.com) - [Github](https://github.com/PaolaAndreaGA)
 
 ## License
 Public Domain. No copy write protection.
