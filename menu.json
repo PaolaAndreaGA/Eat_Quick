@@ -1,0 +1,27 @@
+[
+  {
+    "title": "HAMBUERGUESA  CLÁSICA",
+    "combo": "papas a la francesa o casco y una Coca-cola 350 ml.",
+    "price": 21500,
+    "imageUrl": "https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FJKXKQKMMJBV7KQ7XQ3YNFO7LU.jpg"
+  },
+  {
+    "title": "HOT DOG GOURMET",
+    "combo": "papas a la francesa o casco y una Coca-cola 350 ml.",
+    "price": 18500,
+    "imageUrl": "https://saboryestilo.com.mx/wp-content/uploads/2021/06/Hot-Dog-Street-Style-1200x675.jpg"
+  },
+  {
+    "title": "SANDWICH TIPO SUBWAY",
+    "combo": "papas a la francesa o casco y una Coca-cola 350 ml.",
+    "price": 14500,
+    "imageUrl": "https://www.pennlive.com/resizer/bV1BQiD_4JthLmHRRavpMMzCMbE=/arc-anglerfish-arc2-prod-advancelocal/public/3O7ARORJTNC6FJXXXGM5GCAREU.jpg"
+  },
+  {
+    "title": "PIZZA 4 QUESOS",
+    "combo": "una Coca-cola 4L.",
+    "price": 64500,
+    "imageUrl": "https://tvpacifico.mx/recetas/intranet/images/recipes/330-349.jpg"
+  }
+
+]
