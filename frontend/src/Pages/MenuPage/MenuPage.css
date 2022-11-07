@@ -1,0 +1,55 @@
+.title-menu {
+  position: absolute;
+  width: 272px;
+  height: 77px;
+  left: 580px;
+  top: 170px;
+  font-family: 'Merienda', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  text-align: center;
+  color: #000000;
+}
+.menu-card{
+  position: relative;
+  left: 500px;
+  top: 280px;
+  column-count: 1;
+  column-gap: 20px;
+  width: 30%;
+  height: 30%;
+  margin: 7px;
+  font-family: 'Merienda', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.menu-card img{
+  width: 80%;
+  height: 180px;
+  border-radius: 20px;
+  object-fit: fill;
+}
+.inicio{
+  position: absolute;
+  width: 171px;
+  height: 34px;
+  left: 630px;
+  top: 300px;
+  background: rgba(31, 194, 231, 0.26);
+  background-blend-mode: darken;
+  border: 1px solid #1B18D2;
+  border-radius: 10px;
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}

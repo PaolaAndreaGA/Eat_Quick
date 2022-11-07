@@ -1,0 +1,40 @@
+.menu-details{
+    align-items: center;
+    font-family: 'Merienda',cursive;
+}
+
+.menu-details img {
+  display: inline-block;
+  width: 30%;
+}
+
+.menu-details article {
+  display: inline-block;
+  width: 40%;
+  margin-left: 20px;
+  vertical-align: top;
+  font-family: 'Merienda', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #000000;
+}
+.Bmenu{
+  position: absolute;
+  width: 171px;
+  height: 34px;
+  left: 660px;
+  top: 400px;
+  background: rgba(9, 196, 239, 0.26);
+  background-blend-mode: darken;
+  border: 1px solid #1B18D2;
+  border-radius: 10px;
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
