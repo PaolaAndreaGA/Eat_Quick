@@ -1,18 +1,24 @@
-import './IndexPage.css';
 import { Link } from 'react-router-dom';
-const IndexPage = () => {
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
+function BasicExample() {
   return (
-    <main>
-      <div>
-        <h1 className="bienvenido">Bienvenido</h1>
-        <p className="nombre">Ingrese su Nombre:</p>
-        <input className="nombrebox" type="text" />
-        <p className="mesa">Ingrese el No de la mesa:</p>
-        <input className="mesabox" type="text" />
-        <Link to="/menu"> <button className="enviar">Enviar</button></Link>
-      </div>
-    </main>
+    <Form className='container text-center'>
+      <h1 className='mb-10'>Bienvenido</h1>
+      <Form.Group className=" mb-3" controlId="formBasicEmail">
+        <Form.Label><h3>Nombre:</h3></Form.Label>
+        <Form.Control className='shadow p-3 w-50 p-3 container text-center' size="md" type="name" placeholder="Ingrese por favor su nombre:"  />
+      </Form.Group>
+      <Form.Group className=" mb-3" controlId="formBasicPassword">
+        <Form.Label><h3>No. de Mesa</h3></Form.Label>
+        <Form.Control className='shadow p3 w-50 p-3 container text-center' size="md" type="password" placeholder="Ingrese el número de la mesa" />
+      </Form.Group>
+      <Link to="/menu">
+        <Button type="submit" className="shadow p3 btn btn-info btn-lg border border-primary opacity-75">Enviar</Button>
+      </Link>
+    </Form>
   );
 }
 
-export default IndexPage;
+export default BasicExample;

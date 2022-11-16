@@ -1,41 +1,35 @@
-import { Image, Box, Heading } from "@chakra-ui/react";
-import { useNavigate } from "react-router-dom";
-import ImageShop from '../asset/img/fastfood.png';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
-export default function Navbar() {
-  const navegate = useNavigate();
-  const redirect = () => {
-    navegate("/")
-  };
-
+function BrandExample() {
   return (
-    <Box
-      display="block"
-      alignItems="center"
-      justifyContent="space-evenly"
-      borderBottom="3px Solid #AED6F1"
-    >
-
-      <Image
-        src={ImageShop}
-        alt="Logotype"
-        width={75}
-        alignItems="center"
-        margin="0 auto"
-        cursor="pointer"
-        onClick={redirect}
-      />
-      <Heading
-        as="h1"
-        size="sm"
-        isTruncated
-        textTransform="uppercase"
-        textAlign="center"
-        fontWeight="900"
-        fontSize="36px"
-        paddingBottom="5"
-        fontFamily={"'Merienda', cursive"}
-      >Food Truck New Generation</Heading>
-    </Box>
+    <>
+      <Navbar bg="transparent">
+        <Container>
+          <Navbar.Brand
+            href="#home"
+            className="container text-center"
+          >
+            <img
+              src="https://w7.pngwing.com/pngs/485/93/png-transparent-fast-food-taco-hamburger-logo-shovel-food-text-hand-thumbnail.png"
+              width="100"
+              height="80"
+              className="img-fluid"
+              alt="logo"
+            />
+            <Container>
+              <Navbar.Brand>
+                <h1>
+                Food Truck New Generation
+                </h1>
+              </Navbar.Brand>
+            </Container>
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+      <br />
+    </>
   );
-};
+}
+
+export default BrandExample;
