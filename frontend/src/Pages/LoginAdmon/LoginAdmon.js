@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { Link } from 'react-router-dom';
 
 
 function LoginAdmon() {
@@ -17,7 +18,9 @@ function LoginAdmon() {
         <Form.Label><h3>Contraseña</h3></Form.Label>
         <Form.Control className='shadow p-3 w-50 p-3 container text-center text-wrap size= "sm"'  type="password" placeholder="Ingrese Contraseña"/>
       </Form.Group>
+      <Link to="/admon/tools"> 
       <Button type="submit" className=" shadow p3 btn btn-info btn-lg border border-primary opacity-75">Ingresar</Button>
+      </Link>
     </Form>
   );
 }

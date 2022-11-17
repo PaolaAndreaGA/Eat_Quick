@@ -7,6 +7,8 @@ import Navbar from './Components/Navbar';
 import LoginAdmon from './Pages/LoginAdmon/LoginAdmon';
 import CrudMenu from './Pages/CrudMenu/CrudMenu';
 import HomePage from './Pages/HomePage/HomePage';
+import OrderTable from './Pages/OrderTable/OrderTable';
+import AdmonTools from './Pages/AdmonTools/AdmonTools';
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
         <Route path="/client/menu" element={<MenuPage />} />
         <Route path="/client/orden/:menu_id" element={<DetailsPage />}/>
         <Route path="/admon/" element={<LoginAdmon />}/>
+        <Route path="/admon/tools" element={<AdmonTools />}/>
         <Route path="/admon/menucrud" element={<CrudMenu/>}/>
+        <Route path="/admon/ordertable" element={<OrderTable/>}/>
       </Routes>
     </div>
   );
