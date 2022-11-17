@@ -1,5 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 
 function BrandExample() {
   return (
@@ -17,16 +19,17 @@ function BrandExample() {
               className="img-fluid rounded-3"
               alt="logo"
             />
-            <Container>
-              <Navbar.Brand>
-                <h1>
-                Food Truck New Generation
-                </h1>
-              </Navbar.Brand>
-            </Container>
+            <h1>
+              Food Truck New Generation
+            </h1>
           </Navbar.Brand>
+          <Link to="/"><Button type="button" class="btn btn-danger">Salir</Button></Link>
+          
+
         </Container>
+
       </Navbar>
+
       <br />
     </>
   );

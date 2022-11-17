@@ -19,7 +19,7 @@ const DetailsPage = () => {
     <Form>
       <h1 className='container text-center'>{menu.title}</h1>
       <Form.Group className='container text-center p-3'>
-        <Link to="/menu"> <Button type="submit" className="shadow p3 btn btn-info btn-sm border border-primary opacity-75">Volver al Menú</Button></Link>
+        <Link to="/client/menu"> <Button type="submit" className="shadow p3 btn btn-info btn-sm border border-primary opacity-75">Volver al Menú</Button></Link>
       </Form.Group>
       <Form.Group className="d-block p-2 container border text-center w-50" controlId="formBasicMenuDetails">
         <img
