@@ -14,7 +14,7 @@ function BrandExample() {
               src="https://w7.pngwing.com/pngs/485/93/png-transparent-fast-food-taco-hamburger-logo-shovel-food-text-hand-thumbnail.png"
               width="100"
               height="80"
-              className="img-fluid"
+              className="img-fluid rounded-3"
               alt="logo"
             />
             <Container>

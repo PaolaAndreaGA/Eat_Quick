@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './MenuPage.css';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 const MenuPage = () => {
   const [menu, setMenu] = useState([]);
 
@@ -13,22 +14,28 @@ const MenuPage = () => {
   loadMenu()
 
   return (
-    <main>
-      <div className="menu-container">
-        <h1 className='title-menu'>Menú</h1>
-        <Link to="/"> <button className="inicio">Volver al Inicio</button></Link>
+      <Form>
+      <Form.Group className=" container text-center mb-3" controlId="formBasicTitle">
+      <h1 className='mb-3'>Menú</h1>
+        <Link to="/"> <Button type="submit" className="shadow p3 btn btn-info btn-md border border-primary opacity-75">Volver al Inicio</Button></Link>
+        </Form.Group>
         {menu.map(eachMenu => {
           return (
             <Link to={`/orden/${eachMenu._id}`}>
-              <article className='menu-card'>
-                <h3>{eachMenu.title}</h3>
-                <img src={eachMenu.imageUrl}></img>
-              </article>
-            </Link> 
-          )})}
-            </div>
-    </main>
+              <Form.Group className="d-flex align-items-center container border w-auto p-1 mb-4" controlId="formBasicMenuCard">
+                <img
+                  src={eachMenu.imageUrl}
+                  width='180'
+                  height='100'
+                  className="img-fluid rounded-3"
+                >
+                </img>
+                <h5 className='flex-grow-1 ms-4'>{eachMenu.title}</h5>
+              </Form.Group>
+            </Link>
+          )
+        })}
+      </Form>
   );
 }
-
 export default MenuPage;
